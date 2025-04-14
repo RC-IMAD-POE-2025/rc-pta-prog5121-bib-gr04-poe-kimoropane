@@ -59,13 +59,14 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace pref="59" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="register_container" min="-2" max="-2" attributes="0"/>
                   <Component id="Login_container" min="-2" max="-2" attributes="0"/>
+                  <Component id="register_container" min="-2" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace pref="19" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -85,13 +86,17 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jLabel3" min="-2" pref="67" max="-2" attributes="0"/>
-                      <Component id="username_input" max="32767" attributes="0"/>
-                      <Component id="phone_input" pref="190" max="32767" attributes="0"/>
-                      <Component id="jLabel4" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
-                      <Component id="password_input" max="32767" attributes="0"/>
+                      <Component id="First_name" max="32767" attributes="0"/>
+                      <Component id="Last_name" pref="190" max="32767" attributes="0"/>
+                      <Component id="Last_name_label" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
                       <Component id="jLabel6" min="-2" pref="67" max="-2" attributes="0"/>
                       <Component id="register_button" alignment="0" max="32767" attributes="0"/>
                       <Component id="register_title" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="username_input" max="32767" attributes="0"/>
+                      <Component id="jLabel9" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="phone_input" pref="190" max="32767" attributes="0"/>
+                      <Component id="password_input" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="44" max="32767" attributes="0"/>
               </Group>
@@ -100,21 +105,29 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace pref="10" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="register_title" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
+                  <Component id="First_name" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="Last_name_label" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Last_name" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="username_input" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="phone_input" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="password_input" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Component id="register_button" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               </Group>
@@ -124,36 +137,22 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Username:"/>
+            <Property name="text" type="java.lang.String" value="First Name:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="username_input">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Zac_"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="First_name">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="username_inputActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="First_nameActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="Last_name_label">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Phone number:"/>
+            <Property name="text" type="java.lang.String" value="Last Namer:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="phone_input">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="+27000000000"/>
-          </Properties>
+        <Component class="javax.swing.JTextField" name="Last_name">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="phone_inputActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JTextField" name="password_input">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="*******"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_inputActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Last_nameActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
@@ -177,6 +176,37 @@
             <Property name="text" type="java.lang.String" value="Register"/>
           </Properties>
         </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="username_input">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="username_inputActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phone number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phone_input">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+27000000000"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="phone_inputActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="password_input">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jPasswordField1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_inputActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="Login_container">
@@ -184,15 +214,15 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jLabel5" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
                       <Component id="username_input1" alignment="0" pref="190" max="32767" attributes="0"/>
-                      <Component id="password_input1" alignment="0" max="32767" attributes="0"/>
                       <Component id="jLabel8" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
                       <Component id="login_button" alignment="0" max="32767" attributes="0"/>
                       <Component id="register_title1" alignment="0" min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="password_input1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="44" max="32767" attributes="0"/>
               </Group>
@@ -232,14 +262,6 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="username_input1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="password_input1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="*******"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_input1ActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="text" type="java.lang.String" value="Password:"/>
@@ -260,6 +282,14 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Login"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="password_input1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jPasswordField1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_input1ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
