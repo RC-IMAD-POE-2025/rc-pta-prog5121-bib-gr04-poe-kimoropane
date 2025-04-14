@@ -32,18 +32,18 @@ We applied the **OOP approach** throughout the project, focusing on concepts lik
 - Version control with **Git and GitHub**
 
 ```
-
+````
 ## 🚀 Getting Started
-
+````
 1. Clone the repository:
    ```
    https://github.com/RC-IMAD-POE-2025/rc-pta-prog5121-bib-gr04-poe-kimoropane.git
    ```
 2. Open the project using **NetBeans IDE**
 3. Run `ST10486734.java` inside src folder to start the application
-
+````
 ## 🧪 Running Tests
-
+````
 To run unit tests:
 - make sure you have setup JUnit4 for testng
   ```
@@ -51,12 +51,12 @@ download JUnit testing jar file - [https://repo1.maven.org/maven2/org/junit/plat
  ```
 - navigate to Test/st10486734/LoginTest.java
 - I have provided the valid and invalide cases testing functions
-
+````
 ## 📌 Notes
-
+````
 - This is **Part 1** of the chat application series, focusing on GUI, login, and basic validation logic.
 - Future parts still waiting for the lecture's go ahead
-
+````
 ## Referencing
 
 - OpenAI. (2025). ChatGPT (Mar 28 GPT-4.o) (https://chatgpt.com/)
