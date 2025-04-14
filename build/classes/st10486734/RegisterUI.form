@@ -200,9 +200,6 @@
           </Events>
         </Component>
         <Component class="javax.swing.JPasswordField" name="password_input">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jPasswordField1"/>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_inputActionPerformed"/>
           </Events>
@@ -255,9 +252,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="username_input1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Zac_"/>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="username_input1ActionPerformed"/>
           </Events>
@@ -284,9 +278,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JPasswordField" name="password_input1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jPasswordField1"/>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="password_input1ActionPerformed"/>
           </Events>
